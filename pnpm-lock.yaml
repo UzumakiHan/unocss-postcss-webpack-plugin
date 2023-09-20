@@ -17,6 +17,7 @@ specifiers:
   rimraf: ^5.0.1
   rollup: ^3.23.0
   rollup-plugin-typescript2: ^0.35.0
+  tslib: ^2.6.2
   typescript: ^5.2.2
   unplugin: ^1.5.0
   webpack-sources: ^3.2.3
@@ -38,6 +39,7 @@ devDependencies:
   rimraf: registry.npmmirror.com/rimraf/5.0.1
   rollup: registry.npmmirror.com/rollup/3.29.2
   rollup-plugin-typescript2: registry.npmmirror.com/rollup-plugin-typescript2/0.35.0_qjxsdb6m26bk2g4izdximdgoae
+  tslib: registry.npmmirror.com/tslib/2.6.2
   typescript: registry.npmmirror.com/typescript/5.2.2
   unplugin: registry.npmmirror.com/unplugin/1.5.0
   webpack-sources: registry.npmmirror.com/webpack-sources/3.2.3
