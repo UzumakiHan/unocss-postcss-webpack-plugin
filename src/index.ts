@@ -2,8 +2,6 @@ import WebpackSources from 'webpack-sources';
 import { createUnplugin } from 'unplugin';
 import postcss from 'postcss';
 import autoprefixer from 'autoprefixer';
-
-
 const PLUGIN_NAME = 'unocss-postcss';
 const DEFAULT_OVERRIDE_BROWSERS_LIST = [
     ">1%",
@@ -11,7 +9,6 @@ const DEFAULT_OVERRIDE_BROWSERS_LIST = [
     "not ie <= 8",
     "not dead"
 ]
-
 export function unocssPostcssWebpackPlugin(overrideBrowserslist: Array<string>=DEFAULT_OVERRIDE_BROWSERS_LIST) {
     return createUnplugin(() => {
         return {
