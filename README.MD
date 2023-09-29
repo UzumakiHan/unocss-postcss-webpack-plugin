@@ -142,7 +142,7 @@ npm i unocss-postcss-webpack-plugin -D
 //vue.config.js
 const { defineConfig } = require('@vue/cli-service');
 const UnoCSS = require('@unocss/webpack').default
-const HfexIconPlugin = require('hfex-icon-plugin')
+const unocssPostcssWebpackPlugin=require('unocss-postcss-webpack-plugin')
 module.exports = {
      configureWebpack: {
         plugins: [
