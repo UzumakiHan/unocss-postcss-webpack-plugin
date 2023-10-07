@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/UzumakiHan/unocss-postcss-webpack-plugin/compare/v1.1.1...v1.1.2) (2023-10-07)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* remove console ([5443e3e](https://github.com/UzumakiHan/unocss-postcss-webpack-plugin/commit/5443e3e88b2e4c9e04bba988fd73471b8a5378a9))
+
+
+### 👷‍ Build System | 构建
+
+* Update build dist ([0ad5b97](https://github.com/UzumakiHan/unocss-postcss-webpack-plugin/commit/0ad5b971aba49b2612c2a50f3c10e936bf7162b5))
+
 ## [1.1.1](https://github.com/UzumakiHan/unocss-postcss-webpack-plugin/compare/v1.1.0...v1.1.1) (2023-09-25)
 
 
