@@ -7,7 +7,6 @@ const DEFAULT_OVERRIDE_BROWSERS_LIST = [
     'Android >= 6', 'iOS >= 10', 'ie >= 11', 'Firefox >= 35', 'chrome >= 40','safari >= 6'
 ]
 export function unocssPostcssWebpackPlugin(overrideBrowserslist: Array<string>=DEFAULT_OVERRIDE_BROWSERS_LIST) {
-    console.log(overrideBrowserslist)
     return createUnplugin(() => {
         return {
             name: PLUGIN_NAME,
