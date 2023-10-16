@@ -24,6 +24,10 @@ export default{
         commonjs(),
         json(),
         tsPlugin(),
-        terser(),
+        terser({
+            format:{
+                comments: false, beautify: false, ascii_only: true
+            }
+        })
     ]
 }

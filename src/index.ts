@@ -2,7 +2,7 @@ import WebpackSources from 'webpack-sources';
 import { createUnplugin } from 'unplugin';
 import postcss from 'postcss';
 import autoprefixer from 'autoprefixer';
-const PLUGIN_NAME = 'unocss-postcss';
+const PLUGIN_NAME = 'unocss-postcss-webpack-plugin';
 const DEFAULT_OVERRIDE_BROWSERS_LIST = [
     'Android >= 6', 'iOS >= 10', 'ie >= 11', 'Firefox >= 35', 'chrome >= 40','safari >= 6'
 ]
