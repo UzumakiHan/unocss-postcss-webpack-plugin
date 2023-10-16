@@ -13,7 +13,9 @@
     "dist",
     "package.json"
   ],
-  "keywords": [],
+  "keywords": [
+    "unocss","webpack","unplugin","autoprefixer","vue","rollup"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
